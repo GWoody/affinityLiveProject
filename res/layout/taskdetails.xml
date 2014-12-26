@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1"
+              android:background="@android:color/black">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_weight="0.75">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Task Name"
+                    android:id="@+id/taskNameSeperator"
+                    android:textColor="#ff538aff"/>
+
+
+         <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#ff538aff"
+               android:layout_gravity="bottom"></View>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/taskName"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" android:layout_marginTop="10dp" android:layout_marginRight="30dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Task ID"
+                android:id="@+id/taskIDSeperator"
+                android:textColor="#ff538aff"
+                />
+
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#ff538aff"
+              android:layout_gravity="bottom"></View>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/taskID"
+                android:layout_gravity="center_horizontal" android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="AssigneeEmail"
+                android:id="@+id/assigneeEmailSeperator"
+                android:textColor="#ff538aff"/>
+
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#ff538aff"
+              android:layout_gravity="bottom"></View>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/assigneeEmail" android:layout_marginRight="30dp" android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Assignee Firstname"
+                android:id="@+id/assigneeFirstNameSeperator"
+                android:textColor="#ff538aff"/>
+
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#ff538aff"
+              android:layout_gravity="bottom"></View>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/assigneeFirstName"
+                android:layout_gravity="center_horizontal" android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp" android:layout_marginTop="10dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Assignee Surname"
+                android:id="@+id/assigneeSurnameSeperator"
+                android:textColor="#ff538aff"/>
+
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#ff538aff"
+              android:layout_gravity="bottom"></View>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/assigneeSurname"
+                android:layout_gravity="center_horizontal" android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp" android:layout_marginBottom="10dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Assignee ID"
+                android:id="@+id/assigneeIDSeperator"
+                android:textColor="#ff538aff"/>
+
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#ff538aff"
+              android:layout_gravity="bottom"></View>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/assigneeID"
+                android:layout_gravity="center_horizontal" android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp" android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mark Complete"
+                android:id="@+id/doneButton"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonstyle"/>
+    </LinearLayout>
+</LinearLayout>

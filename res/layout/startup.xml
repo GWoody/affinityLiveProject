@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1"
+            android:background="#ff538aff">
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login using AffinityLive"
+                android:background="@drawable/buttonstyle"
+                android:id="@+id/requestButton"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/authCodeField"
+                android:padding="5dp"
+                android:layout_below="@+id/requestButton"
+                android:layout_alignLeft="@+id/requestButton"
+                android:layout_marginTop="47dp"
+                android:background="@drawable/edittextstyle"
+                android:layout_alignRight="@+id/requestButton"
+                android:hint="Authorization Code"
+                android:singleLine="true"
+                android:textColor="#000000"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:padding="10dp"
+                android:id="@+id/loginButton"
+                android:background="@drawable/buttonstyle"
+                android:layout_below="@+id/authCodeField"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/logo"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="71dp"
+                android:background="@android:color/transparent"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Deadline Notifier"
+                android:id="@+id/deadlineNotifier"
+                android:layout_below="@+id/logo"
+                android:textColor="@android:color/black"
+                android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
